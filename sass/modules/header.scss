@@ -6,10 +6,13 @@
 // =================================================================
 
 header {
-	position: relative;
+	position: fixed;
+	z-index: 50;
+	background: #fff;
 	width: 100%;
 	border-top: 3px solid $colorOne;
 	height: 85px;
+	top: 0;
 	overflow: visible;
 	padding-bottom: 30px;
 	padding-top: 30px;

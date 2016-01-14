@@ -6,7 +6,7 @@
 
 		<div class="col-3">
 
-		<a href=""><img src="img/bm_logo.svg"/></a>
+		<a href="#home"><img src="img/bm_logo.svg"/></a>
 
 		</div> <!-- col-3 -->
 
@@ -15,9 +15,9 @@
 			<nav>
 
 				<ul>
-					<li><a href="">About</a></li>
-					<li><a href="">What We Do</a></li>
-					<li><a href="">Contact</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#what">What We Do</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 
 			</nav>
@@ -44,7 +44,7 @@
 
 </header>
 
-<section class="home">
+<section id="home" class="home">
 
 	<div class="grid-container">
 
@@ -64,7 +64,7 @@
 
 </section> <!-- home-splash -->
 
-<section class="about">
+<section id="about" class="about">
 
 	<div class="grid-container">
 
@@ -83,7 +83,7 @@
 
 </section> <!-- about -->
 
-<section class="what">
+<section id="what" class="what">
 
 	<div class="grid-container">
 
@@ -185,7 +185,7 @@
 
 </section> <!-- what -->
 
-<section class="contact">
+<section id="contact" class="contact">
 
 	<div class="grid-container">
 
