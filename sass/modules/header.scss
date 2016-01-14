@@ -9,8 +9,8 @@ header {
 	position: relative;
 	width: 100%;
 	border-top: 3px solid $colorOne;
-	height: auto;
-	overflow: auto;
+	height: 85px;
+	overflow: visible;
 	padding-bottom: 30px;
 	padding-top: 30px;
 
@@ -22,7 +22,7 @@ header {
 	nav ul li {
 		
 		display: inline;	
-		padding-left: 75px;
+		padding-left: 50px;
 
 		a {
 			color: $colorOne;
@@ -36,7 +36,11 @@ header {
 
 	.language-selector {
 		float: right;
-		margin-top: 25px;
+		margin-top: 32px;
+
+		.language-selected {
+			cursor: pointer;
+		}
 
 		.language-selected:after  {
 			content: "";
@@ -49,6 +53,11 @@ header {
 			padding-top: 7px;
 			right: 0;
 			@include transform(rotate(-180deg));
+		}
+
+		.language-selected.active:after {
+			margin-top: 1px;
+			@include transform(rotate(-360deg));
 		}
 
 		a {
@@ -65,8 +74,11 @@ header {
 
 		ul.dropdown {
 			display: none; // Show on dropdown
-			margin-top: 50px;
 			background: #fff;
+			z-index: 50;
+			position: absolute;
+			margin-top: 83px;
+			padding: 0;
 		}
 
 		ul.dropdown.active {
@@ -74,9 +86,28 @@ header {
 		}
 
 		ul li {
-			padding: 8px 0;
+			margin: 0;
+			padding: 0px 0;
 			margin-bottom: 20px;
 			list-style-type: none;
+		}
+
+		ul li a {
+			cursor: pointer;
+			padding: 5px 10px;
+			border-bottom: 1px solid $colorThree;
+		}
+
+		ul li:first-child a {
+			padding-top: 10px;
+		}
+
+		ul li:last-child a {
+			padding-bottom: 10px;
+		}
+
+		ul li a:hover {
+			background: $colorThree;
 		}
 
 		span {
@@ -89,6 +120,85 @@ header {
 			margin-right: 15px;
 			width: 30px;
 			float: left;
+		}
+	}
+
+	@include mq("medium", "max-width") {
+		height: 65px;
+		
+		nav {
+			margin-top: 25px;
+			margin-left: 25px;
+
+			ul li {
+				padding-left: 25px;
+			}
+		}
+
+		.language-selector {
+			margin-top: 25px;
+
+			ul.dropdown {
+				margin-top: 70px;
+			}
+		}
+	}
+
+	@include mq("small", "max-width") {
+		height: 70px;
+
+		nav {
+			display: none;
+		}
+
+		.col-3 {
+			width: 30%;
+		}
+
+		.col-3:last-child {
+			float: right;
+		}
+
+		.language-selector {
+			margin-top: 20px;
+
+			ul li a:hover {
+				background: #fff;
+			}
+
+			ul.dropdown {
+				margin-top: 80px;
+			}
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+		height: 55px;
+
+		.col-3 {
+			float: left;
+			width: 45%;
+			margin: 0;
+		}
+
+		.language-selector {
+			margin-top: 15px;
+
+			ul.dropdown {
+				margin-top: 65px;
+			}
+		}
+	}
+
+	@include mq("super-small", "max-width") {
+		height: 45px;
+
+		.language-selector {
+			margin-top: 10px;
+
+			ul.dropdown {
+				margin-top: 60px;
+			}
 		}
 	}
 }

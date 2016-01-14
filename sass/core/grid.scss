@@ -9,7 +9,16 @@
   position: relative;
   display: block;
   margin: 0 auto;
+  width: 95%;
   max-width: 1230px;
+
+  @include mq("small", "max-width") {
+    width: 92%;
+  }
+
+  @include mq("extra-small", "max-width") {
+    width: 90%;
+  }
 }
 
 %clearfix:after {

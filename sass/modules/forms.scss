@@ -51,6 +51,7 @@ input, textarea {
 
 	@include mq("small", "max-width") {
 		padding: 12px 17px;
+		margin-bottom: 10px;
 	}
 
 	@include mq("nano", "max-width") {
@@ -59,10 +60,13 @@ input, textarea {
 }
 
 input[type="submit"] {
-
 	width: 200px;
 	float: right;
 	background: $colorOne;
 	border: 0;
 	color: #fff;
+
+	@include mq("small", "max-width") {
+		width: 100%;
+	}
 }
