@@ -10,8 +10,8 @@
 	height: 500px;
 	background: $colorThree;
 	padding: 50px 0;
-	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 63%, 0% 100%);
-	clip-path: polygon(0 0, 100% 0%, 100% 63%, 0% 100%);
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%);
 
 	.col-7 {
 		display: block;
@@ -24,11 +24,80 @@
 		}
 
 		h1 {
-
 			width: 393px;
 			border-bottom: 3px solid $colorOne;
-			margin: 25px auto;
+			margin: 45px auto 25px auto;
 			display: block;
 		}
 	}
+}
+
+.about {
+	.col-8 {
+		display: block;
+		margin: 0 auto;
+		padding: 0;
+		float: none;
+	}
+
+	.poly-strip {
+		width: 100%;
+		height: 400px;
+		-webkit-clip-path: polygon(0 0, 100% 60%, 100% 100%, 0 40%);
+		clip-path: polygon(0 0, 100% 60%, 100% 100%, 0 35%);
+		background: $colorThree;
+	}
+}
+
+.what {
+
+	p.large {
+		padding-bottom: 100px;
+	}
+
+	.row {
+		border-bottom: 1px solid $colorTwo;
+	}
+
+	.row:last-child {
+		border-bottom: 0;
+	}
+
+	img {
+		padding-bottom: 20px;
+	}
+
+	.center {
+		display: block;
+		margin: 0 auto;
+		padding: 0;
+		float: none;
+	}
+
+	.poly-strip {
+		width: 100%;
+		height: 400px;
+		-webkit-clip-path: polygon(0 65%, 100% 0, 100% 30%, 0 100%);
+		clip-path: polygon(0 65%, 100% 0, 100% 30%, 0 100%);
+		background: $colorThree;
+	}
+}
+
+.contact {
+	height: auto;
+	overflow: auto;
+
+	.col-8 {
+		display: block;
+		margin: 0 auto;
+		padding: 0;
+		float: none;
+	}
+
+	.row:last-child {
+		padding-bottom: 100px;
+		margin-bottom: 75px;
+		border-bottom: 1px solid $colorTwo;
+	}
+
 }

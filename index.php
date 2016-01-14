@@ -72,14 +72,14 @@
 
 			<h2>About</h2>
 
-			<p class="large">With over 40 years combined experience in the building industry we can help you with your project. From residential properties, to refurbishment and new builds, our aim is to help you build more.
-</p><p class="large">Working in the areas of Baqueira and Mallorca, contact us today to talk about your project </p>
+			<p class="large">With over 40 years combined experience in the building industry we can help you with your project. From residential properties, to refurbishment and new builds, our aim is to help you build more.
+</p><p class="large">Working in the areas of Baqueira and Mallorca, contact us today to talk about your project.</p>
 
-		</div> <!-- col-10 -->
+		</div> <!-- col-8 -->
 
 	</div> <!-- grid-container -->
 
-	<img src=""/>
+	<div class="poly-strip"></div>
 
 </section> <!-- about -->
 
@@ -89,7 +89,7 @@
 
 		<div class="row">
 
-			<div class="col-8">
+			<div class="col-8 center">
 
 				<h2>What We Do</h2>
 
@@ -101,7 +101,15 @@
 
 		<div class="row">
 
-			<div class="col-8">
+			<div class="col-1"><div class="grid-spacer"></div></div>
+
+			<div class="col-4">
+
+				<img src="img/bm_residential.svg">
+
+			</div>
+
+			<div class="col-6">
 
 				<h3>Residential</h3>
 
@@ -109,17 +117,19 @@
 
 			</div>
 
-			<div class="col-4">
-
-				<img src=""/>
-
-			</div>
-
 		</div> <!-- row -->
 
 		<div class="row">
 
-			<div class="col-8">
+			<div class="col-1"><div class="grid-spacer"></div></div>
+
+			<div class="col-4">
+
+				<img src="img/bm_total_conversion.svg">
+
+			</div>
+
+			<div class="col-6">
 
 				<h3>New Build &amp; Total Conversion</h3>
 
@@ -127,17 +137,19 @@
 
 			</div>
 
-			<div class="col-4">
-
-				<img src=""/>
-
-			</div>
-
 		</div> <!-- row -->
 
 		<div class="row">
 
-			<div class="col-8">
+			<div class="col-1"><div class="grid-spacer"></div></div>
+
+			<div class="col-4">
+
+				<img src="img/bm_refurbishment.svg">
+
+			</div>
+
+			<div class="col-6">
 
 				<h3>Refurbishment</h3>
 
@@ -145,17 +157,19 @@
 
 			</div>
 
-			<div class="col-4">
-
-				<img src=""/>
-
-			</div>
-
 		</div> <!-- row -->
 
 		<div class="row">
 
-			<div class="col-8">
+			<div class="col-1"><div class="grid-spacer"></div></div>
+
+			<div class="col-4">
+
+				<img src="img/bm_management.svg">
+
+			</div>
+
+			<div class="col-6">
 
 				<h3>Management &amp; Maintenance</h3>
 
@@ -163,17 +177,11 @@
 
 			</div>
 
-			<div class="col-4">
-
-				<img src=""/>
-
-			</div>
-
 		</div> <!-- row -->
 
 	</div> <!-- grid-container -->
 
-	<img src=""/>
+	<div class="poly-strip"></div>
 
 </section> <!-- what -->
 
@@ -222,7 +230,7 @@
 
 					<fieldset class="form-full">
 						<label>Message</label>
-						<textarea></textarea>
+						<textarea rows="8"></textarea>
 					</fieldset>
 
 
