@@ -32,7 +32,12 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
+a {
+	font-family: $base-font-family;
+}
+
 h1 {
+	color: #fff;
   	font-size: 3em;
 }
 

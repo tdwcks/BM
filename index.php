@@ -6,7 +6,7 @@
 
 		<div class="col-3">
 
-		<a href=""><img src=""/></a>
+		<a href=""><img src="img/bm_logo.svg"/></a>
 
 		</div> <!-- col-3 -->
 
@@ -26,13 +26,17 @@
 
 		<div class="col-3">
 
-			<a class="js-language-switch"></a>
+			<div class="language-selector">
 
-			<ul>
-				<li><a href="">UK</a></li>
-				<li><a href="">Spanish</a></li>
-				<li><a href="">German</a></li>
-			</ul>
+				<a class="language-selected"><img src="img/great_britain.svg"/><span>English</span></a>
+
+				<ul class="dropdown">
+					<li><a href=""><img src="img/great_britain.svg"/><span>English</span></a></li>
+					<li><a href=""><img src="img/german.svg"/><span>German</span></a></li>
+					<li><a href=""><img src="img/spain.svg"/><span>Spanish</span></a></li>
+				</ul>
+
+			</div> <!-- language-selector -->
 
 		</div> <!-- col-3 -->
 
@@ -44,7 +48,7 @@
 
 	<div class="grid-container">
 
-		<div class="col-8">
+		<div class="col-7">
 
 			<h1>Building More</h1>
 
@@ -52,7 +56,7 @@
 
 			<a class="link-btn-one">Find Out More</a>
 
-		</div> <!-- col-8 -->
+		</div> <!-- col-7 -->
 
 	</div> <!-- grid-container -->
 
@@ -69,7 +73,7 @@
 			<h2>About</h2>
 
 			<p class="large">With over 40 years combined experience in the building industry we can help you with your project. From residential properties, to refurbishment and new builds, our aim is to help you build more.
-</br>Working in the areas of Baqueira and Mallorca, contact us today to talk about your project </p>
+</p><p class="large">Working in the areas of Baqueira and Mallorca, contact us today to talk about your project </p>
 
 		</div> <!-- col-10 -->
 
