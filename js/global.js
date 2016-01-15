@@ -16,6 +16,13 @@ $(function() {
   	$('header').singlePageNav({
   		offset: $('header').outerHeight()
   	});
+
+  	// Scroll baby yeah 
+
+  	$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+        $('.home-triangle').css({'opacity':(( 1000-scroll )/1000)});
+    });
  
 });
 

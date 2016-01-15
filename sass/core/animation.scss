@@ -5,3 +5,34 @@
 //    Animation
 // =================================================================
 
+@include keyframes(slide) {
+  0% {
+    
+  }
+  100% {
+   @include transform(translateX(-1200px));
+  }
+}
+
+
+@include keyframes(slideUp) {
+  0% {
+    @include transform(translateY(100px));
+    opacity: 0;
+  }
+
+  15% {
+  	 @include transform(translateY(0));
+  	 opacity: 1;
+  }
+
+  85% {
+  	 @include transform(translateY(0px));
+  	 opacity: 1;
+  }
+
+  100% {
+   @include transform(translateY(100px));
+    opacity: 0;
+  }
+}

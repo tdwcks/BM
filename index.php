@@ -60,9 +60,29 @@
 
 	</div> <!-- grid-container -->
 
-	<img src=""/>
+	<img src="img/bm_hero.jpg"/>
 
 </section> <!-- home-splash -->
+
+<section class="home-triangle">
+
+	<div class="top-right">
+		<svg version=1.1 id=Layer_1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink x=0px y=0px viewBox="0 0 79 85.634" enable-background="new 0 0 79 85.634" xml:space=preserve><path id=XMLID_2_ fill=#E1E1E1 d="M1,78.2V1h77.2L1,78.2z M2,2v73.8L75.8,2H2z"/></svg>
+	</div>
+
+	<div class="bottom-right">
+		<svg version=1.1 id=Layer_1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink x=0px y=0px viewBox="0 0 156.5 169.641" enable-background="new 0 0 156.5 169.641" xml:space=preserve><path id=XMLID_49_ fill=#E1E1E1 d="M4.296,135.881v-90.41h90.41L4.296,135.881z M5.467,46.642v86.428l86.428-86.428H5.467z"/><path id=XMLID_46_ fill=#E1E1E1 d="M60.609,119.919v-90.41h90.41L60.609,119.919z M61.78,30.68v86.428l86.428-86.428H61.78z"/></svg>
+	</div>
+
+	<div class="bottom-left">
+		<svg version=1.1 id=Layer_1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink x=0px y=0px viewBox="0 0 156.5 169.641" enable-background="new 0 0 156.5 169.641" xml:space=preserve><path id=XMLID_47_ fill=#E1E1E1 d="M76.2,153.4V76.2h77.2L76.2,153.4z M77.2,77.2V151L151,77.2H77.2z"/><path id=XMLID_44_ fill=#E1E1E1 d="M0.7,77.9V0.7h77.2L0.7,77.9z M1.7,1.7v73.8L75.5,1.7L1.7,1.7L1.7,1.7z"/><path id=XMLID_3_ fill=#E1E1E1 d="M77.2,77.2H0L77.2,0V77.2z M2.4,76.2h73.8V2.4L2.4,76.2z"/></svg>
+	</div>
+
+	<div class="top-left">
+		<svg version=1.1 id=Layer_1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink x=0px y=0px viewBox="0 0 156.5 169.641" enable-background="new 0 0 156.5 169.641" xml:space=preserve><path id=XMLID_49_ fill=#E1E1E1 d="M4.296,135.881v-90.41h90.41L4.296,135.881z M5.467,46.642v86.428l86.428-86.428H5.467z"/><path id=XMLID_46_ fill=#E1E1E1 d="M60.609,119.919v-90.41h90.41L60.609,119.919z M61.78,30.68v86.428l86.428-86.428H61.78z"/></svg>
+	</div>
+
+</section>
 
 <section id="about" class="about">
 
@@ -79,7 +99,11 @@
 
 	</div> <!-- grid-container -->
 
-	<div class="poly-strip"></div>
+	<div class="poly-strip">
+
+		<img src="img/horizon_image.jpg">
+
+	</div> <!-- poly-strip -->
 
 </section> <!-- about -->
 
@@ -181,7 +205,11 @@
 
 	</div> <!-- grid-container -->
 
-	<div class="poly-strip"></div>
+	<div class="poly-strip">
+
+		<img src="img/horizon_image.jpg">
+	
+	</div> <!-- poly-strip -->
 
 </section> <!-- what -->
 
@@ -244,5 +272,11 @@
 	</div> <!-- grid-container -->
 
 </section> <!-- Contact -->
+
+<div class="alert-bottom">
+
+	<h3>Your Message has been sent to Building More.</h3>
+
+</div>
 
 <?php include 'includes/global/footer.php'; ?>

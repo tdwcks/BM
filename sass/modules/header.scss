@@ -116,7 +116,7 @@ header {
 		span {
 			float: left;
 			display: block;
-			margin-top: 6px;
+			margin-top: 2px;
 		}
 
 		img {
@@ -176,7 +176,7 @@ header {
 	}
 
 	@include mq("extra-small", "max-width") {
-		height: 55px;
+		height: 80px;
 
 		.col-3 {
 			float: left;
@@ -185,10 +185,10 @@ header {
 		}
 
 		.language-selector {
-			margin-top: 15px;
+			margin-top: 25px;
 
 			ul.dropdown {
-				margin-top: 65px;
+				margin-top: 80px;
 			}
 		}
 	}
