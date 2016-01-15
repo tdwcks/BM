@@ -10,10 +10,10 @@ Links:
 
 # Development Sessions
 
-* Session #1 Time 5:15
+* Session #1 Time 5:16
 * Session #2 Time 2:20
 
-Total Time 7:35
+Total Time 7:36
 
 # Notes 
 
