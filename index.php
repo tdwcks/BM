@@ -277,6 +277,6 @@
 
 	<h3>Your Message has been sent to BM.</h3>
 
-</div>
+</div> <!-- alert-bottom -->
 
 <?php include 'includes/global/footer.php'; ?>
