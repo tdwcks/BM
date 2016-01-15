@@ -18,6 +18,8 @@ Total Time 7:36
 # Notes 
 
 * Typography served by Typekit - Tom Wicks' Account
+* Images need compressing and uploading
+* Correct Content needs adding in
 
 
 
