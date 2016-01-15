@@ -275,7 +275,7 @@
 
 <div class="alert-bottom">
 
-	<h3>Your Message has been sent to Building More.</h3>
+	<h3>Your Message has been sent to BM.</h3>
 
 </div>
 
