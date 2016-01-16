@@ -28,7 +28,7 @@
 		h1 {
 			width: 393px;
 			border-bottom: 3px solid $colorOne;
-			margin: 45px auto 25px auto;
+			margin: 65px auto 25px auto;
 			display: block;
 		}
 	}
@@ -267,6 +267,10 @@
 		float: none;
 	}
 
+	.residential {
+		padding-bottom: 30px;
+	}
+
 	.conversion {
 		padding-bottom: 50px;
 
@@ -402,6 +406,10 @@
 .contact {
 	height: auto;
 	overflow: auto;
+
+	h2 {
+		margin-top: 0px;
+	}
 
 	.col-8 {
 		display: block;

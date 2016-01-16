@@ -13,8 +13,9 @@ Links:
 * Session #1 Time 5:16
 * Session #2 Time 2:20
 * Session #3 Time 0:22
+* Session #4 Time 0:54
 
-Total Time 7:58
+Total Time 8:52
 
 # Notes 
 

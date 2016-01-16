@@ -66,6 +66,10 @@ input[type="submit"] {
 	border: 0;
 	color: #fff;
 
+	&:hover {
+		background: darken($colorOne, 10%);
+	}
+
 	@include mq("small", "max-width") {
 		width: 100%;
 	}

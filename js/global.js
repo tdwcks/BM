@@ -8,21 +8,37 @@
 $(function() {
 
 
-  	$(document).on( "click", ".language-selected", function() {
-  		$('.dropdown').toggleClass('active');
-  		$(this).toggleClass('active');
-	});
+    $(document).on( "click", ".language-selected", function() {
+      $('.dropdown').toggleClass('active');
+      $(this).toggleClass('active');
+  });
 
-  	$('body').singlePageNav({
-  		offset: $('header').outerHeight()
-  	});
+    $('nav').singlePageNav({
+      offset: $('header').outerHeight()
+    });
 
-  	// Scroll baby yeah 
+     $('body').singlePageNav({
+      offset: $('header').outerHeight()
+    });
 
-  	$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-        $('.home-triangle').css({'opacity':(( 1000-scroll )/1000)});
+    // Scroll baby yeah 
+
+    $(window).scroll(function() {    
+      var scroll = $(window).scrollTop();
+          $('.home-triangle').css({'opacity':(( 1000-scroll )/1000)});
+    });
+
+    $(window).scroll(function() {
+    if ($(this).scrollTop() > 900) {
+        $('.home-triangle').css({
+            'display': 'none'
+        });
+    }
+    else {
+       $('.home-triangle').css({
+            'display': 'block'
+        });
+    }
     });
  
 });
-

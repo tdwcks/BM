@@ -336,6 +336,8 @@ input[type="submit"] {
   background: #a38d32;
   border: 0;
   color: #fff; }
+  input[type="submit"]:hover {
+    background: #7c6b26; }
   @media (max-width: 870px) {
     input[type="submit"] {
       width: 100%; } }
@@ -358,12 +360,24 @@ header {
     display: inline;
     padding-left: 50px; }
     header nav ul li a {
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
       color: #a38d32;
       font-size: 1.1em;
       letter-spacing: 1px;
       text-decoration: none;
       cursor: pointer;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      border-bottom: 2px solid #fff; }
+  header nav ul li.home {
+    display: none; }
+  header nav ul li a.current {
+    border-bottom: 2px solid #a38d32; }
+  header nav ul li a:hover {
+    border-bottom: 2px solid #d3d3d3; }
   header .language-selector {
     float: right;
     margin-top: 32px; }
@@ -523,7 +537,7 @@ header {
     .home .col-7 h1 {
       width: 393px;
       border-bottom: 3px solid #a38d32;
-      margin: 45px auto 25px auto;
+      margin: 65px auto 25px auto;
       display: block; }
   .home img {
     top: 0;
@@ -681,6 +695,8 @@ header {
   margin: 0 auto;
   padding: 0;
   float: none; }
+.what .residential {
+  padding-bottom: 30px; }
 .what .conversion {
   padding-bottom: 50px; }
   .what .conversion .col-4 {
@@ -765,6 +781,8 @@ header {
 .contact {
   height: auto;
   overflow: auto; }
+  .contact h2 {
+    margin-top: 0px; }
   .contact .col-8 {
     display: block;
     margin: 0 auto;
