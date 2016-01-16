@@ -12,13 +12,13 @@ Links:
 
 * Session #1 Time 5:16
 * Session #2 Time 2:20
+* Session #3 Time 0:22
 
-Total Time 7:36
+Total Time 7:58
 
 # Notes 
 
 * Typography served by Typekit - Tom Wicks' Account
-* Correct Content needs adding in
-* Where Should the CTA on the splash link to?
-* Contact Form Needs Linking 
+* Contact Form Needs to make work info@bm-pap.com
 * Language switcher needs to switch
+* Langauge switcher should add a class to body, e.g german version will be longer

@@ -92,8 +92,9 @@
 
 			<h2>About</h2>
 
-			<p class="large">With over 40 years combined experience in the building industry we can help you with your project. From residential properties, to refurbishment and new builds, our aim is to help you build more.
-</p><p class="large">Working in the areas of Baqueira and Mallorca, contact us today to talk about your project.</p>
+			<p class="large">With over 40 years combined experience, BM provides bespoke construction and refurbishment expertise for the prime residential market. Our aim is to help you Build More.</p>
+
+			<p class="large">We have recently and successfully completed residential developments to a very high specification in the Pyrenees and Mallorca. Please contact us to discuss your ideas.</p>
 
 		</div> <!-- col-8 -->
 
@@ -117,13 +118,15 @@
 
 				<h2>What We Do</h2>
 
-				<p class="large">From Residential and new builds to complete refurbishments, and everything inbetween – we can make your ideas come to life.</p>
+				<p class="large">From new-builds and complete refurbishments to on-going maintenance, we believe that we are creating a better life for our clients and our satisfaction comes from taking our clients ideas and delivering sound results.</p>
 
+				<p class="large">From our extensive experience in delivering residential projects, we understand that the key to ultimate quality of the final product is flexibility, communication and professionalism. A collaborative approach with all parties helps to ensure the smooth and efficient progress of each project, whatever the size.</p>
+				
 			</div> <!-- col-8 -->
 
 		</div> <!-- row -->
 
-		<div class="row">
+		<div class="row residential">
 
 			<div class="col-1"><div class="grid-spacer"></div></div>
 
@@ -137,13 +140,13 @@
 
 				<h3>Residential</h3>
 
-				<p>With over 40 years combined experience in the building industry we can help you with your project. From residential properties, to  refurbishment and new builds, our aim is to help you build more for tomorrow.</p>
+				<p>By implementing our experience, expertise, attention to detail and by working to very high standards, we aim to deliver a service that will exceed your expectations. Once BM engages in a project, we embrace a true team mentality with one goal in mind – to complete all projects to the highest possible standard.</p>
 
 			</div>
 
 		</div> <!-- row -->
 
-		<div class="row">
+		<div class="row conversion">
 
 			<div class="col-1"><div class="grid-spacer"></div></div>
 
@@ -157,13 +160,13 @@
 
 				<h3>New Build &amp; Total Conversion</h3>
 
-				<p>With over 40 years combined experience in the building industry we can help you with your project. From residential properties, to  refurbishment and new builds, our aim is to help you build more for tomorrow.</p>
+				<p>We would define major projects and complete conversions as significant building work. This in most cases requires the client to vacate the premises to enable us to execute the work, although this isn’t always necessary as each project is unique. With this in mind we treat all projects with extreme care and respect, placing the client’s needs first.</p>
 
 			</div>
 
 		</div> <!-- row -->
 
-		<div class="row">
+		<div class="row refurbishment">
 
 			<div class="col-1"><div class="grid-spacer"></div></div>
 
@@ -177,13 +180,13 @@
 
 				<h3>Refurbishment</h3>
 
-				<p>With over 40 years combined experience in the building industry we can help you with your project. From residential properties, to  refurbishment and new builds, our aim is to help you build more for tomorrow.</p>
+				<p>Through our comprehensive knowledge of refurbishment projects, we are well aware of the importance of understanding, recognising and advising on the scope of solutions available for each particular project. BM is also aware of the challenges involved in working in occupied buildings and how to minimise disruption. The pre-construction and manufacturing periods of the refurbishment process require a keen hands-on approach. We place much emphasis on communication between the client, our own project team, the supply chain and design teams.</p>
 
 			</div>
 
 		</div> <!-- row -->
 
-		<div class="row">
+		<div class="row management">
 
 			<div class="col-1"><div class="grid-spacer"></div></div>
 
@@ -195,9 +198,9 @@
 
 			<div class="col-6">
 
-				<h3>Management &amp; Maintenance</h3>
+				<h3>Aftercare &amp; Maintenance</h3>
 
-				<p>With over 40 years combined experience in the building industry we can help you with your project. From residential properties, to  refurbishment and new builds, our aim is to help you build more for tomorrow.</p>
+				<p>We understand that our clients are busy and have other priorities, that’s why we have our aftercare and maintenance service. This is essential for the running of an efficient house and household. Each completed project can be followed up with a tailored proposal for on-going maintenance and our support and assistance remains in place for as long as our clients require.</p>
 
 			</div>
 

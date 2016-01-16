@@ -668,7 +668,7 @@ header {
     margin-top: 80px;
     margin-left: 25px; } }
 
-.what p.large {
+.what p.large:last-child {
   padding-bottom: 100px; }
 .what .row {
   border-bottom: 1px solid #d3d3d3; }
@@ -681,6 +681,18 @@ header {
   margin: 0 auto;
   padding: 0;
   float: none; }
+.what .conversion {
+  padding-bottom: 50px; }
+  .what .conversion .col-4 {
+    padding-top: 10px; }
+.what .refurbishment {
+  padding-bottom: 50px; }
+  .what .refurbishment .col-4 {
+    padding-top: 40px; }
+.what .management {
+  padding-bottom: 50px; }
+  .what .management .col-4 {
+    padding-top: 25px; }
 .what .poly-strip {
   width: 100%;
   height: 400px;

@@ -244,7 +244,7 @@
 
 .what {
 
-	p.large {
+	p.large:last-child {
 		padding-bottom: 100px;
 	}
 
@@ -266,6 +266,31 @@
 		padding: 0;
 		float: none;
 	}
+
+	.conversion {
+		padding-bottom: 50px;
+
+		.col-4 {
+			padding-top: 10px;
+		}
+	}
+
+	.refurbishment {
+		padding-bottom: 50px;
+
+		.col-4 {
+			padding-top: 40px;
+		}
+	}
+
+	.management {
+		padding-bottom: 50px;
+
+		.col-4 {
+			padding-top: 25px;
+		}
+	}
+
 
 	.poly-strip {
 		width: 100%;
