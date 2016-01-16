@@ -54,7 +54,7 @@
 
 			<p class="large">Helping bring our clients vision to life. Undertaking projects of all sizes throughout Baqueira and Mallorca.</p>
 
-			<a class="link-btn-one">Find Out More</a>
+			<a href="#what" class="link-btn-one">Find Out More</a>
 
 		</div> <!-- col-7 -->
 

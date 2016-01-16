@@ -18,10 +18,7 @@ Total Time 7:36
 # Notes 
 
 * Typography served by Typekit - Tom Wicks' Account
-* Images need compressing and uploading
 * Correct Content needs adding in
-
-
-
-
-
+* Where Should the CTA on the splash link to?
+* Contact Form Needs Linking 
+* Language switcher needs to switch

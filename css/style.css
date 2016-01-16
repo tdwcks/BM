@@ -498,7 +498,8 @@ header {
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out; }
+  transition: all 0.2s ease-in-out;
+  text-decoration: none; }
   .link-btn-one:hover {
     background: #fff;
     color: #a38d32; }

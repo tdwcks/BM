@@ -13,7 +13,7 @@ $(function() {
   		$(this).toggleClass('active');
 	});
 
-  	$('header').singlePageNav({
+  	$('body').singlePageNav({
   		offset: $('header').outerHeight()
   	});
 
