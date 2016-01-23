@@ -65,7 +65,7 @@
 
 		</div> <!-- grid-container -->
 
-		<img src="img/bm_hero.jpg"/>
+		<img src="img/bm_sky.jpg"/>
 
 	</section> <!-- home-splash -->
 
@@ -239,54 +239,91 @@
 
 			<div class="row">
 
-				<div class="col-8">
+				<div class="col-4">
 
-					<form>
+					<h4>Robert Lucas BSc (Hons) MRICS</h4>
+					<a href="tel:+44 7715 488781">+44 7715 488781</a>
+					<a href="mailto:rob@bm-pap.com">rob@bm-pap.com</a>
 
-						<fieldset class="form-half">
-							<label>Name</label>
-							<input type="text"></input>
-						</fieldset>
+				</div> <!-- col-4 -->
 
-						<fieldset class="form-half">
-							<label>Company</label>
-							<input type="text"></input>
-						</fieldset>
+				<div class="col-4">
 
-						<fieldset class="form-half">
-							<label>Email</label>
-							<input type="text"></input>
-						</fieldset>
+					<h4>Iván Mariano Cazorla</h4>
+					<a href="tel:+34 650 545 997">+34 650 545 997</a>
+					<a href="mailto:ivan@bm-pap.com">ivan@bm-pap.com</a>
 
-						<fieldset class="form-half">
-							<label>Subject</label>
-							<input type="text"></input>
-						</fieldset>
+				</div> <!-- col-4 -->
 
+				<div class="col-4">
 
-						<fieldset class="form-full">
-							<label>Message</label>
-							<textarea rows="8"></textarea>
-						</fieldset>
+					<h4>BM Property &amp; Projects</h4>
+					<p>C/. Alicante, 58 Pol. Ind. Son Bugadelles 07180 Santa Ponça – Calvià </p>
 
-						<input type="submit" value="Submit">
-
-					</form>
-
-				</div> <!-- col-8 -->
+				</div> <!-- col-4 -->
 
 			</div> <!-- row -->
+
+			<div class="row">
+
+				<div id="map"></div>
+
+			</div>
 
 		</div> <!-- grid-container -->
 
 	</section> <!-- Contact -->
 
-	<div class="alert-bottom">
-
-		<h3>Your Message has been sent to BM.</h3>
-
-	</div> <!-- alert-bottom -->
-
 </article>
+
+<script>
+
+    L.mapbox.accessToken = 'pk.eyJ1IjoidGR3Y2tzIiwiYSI6IlhwMGlGR28ifQ.irq5Rbn1WvGb_VIwn1auNA';
+    var map = L.mapbox.map('map', 'mapbox.satellite')
+    .setView([39.502944, -2.471542], 16);
+
+    map.scrollWheelZoom.disable();
+
+    var myLayer = L.mapbox.featureLayer().addTo(map);
+
+    var geoJson = [{
+
+        type: 'Feature',
+        "geometry": { "type": "Point", "coordinates": [-2.471542,39.502944]},
+        "properties": {
+            "icon": {
+                "iconUrl": "img/map_icon.svg",
+                "iconSize": [100, 100], // size of the icon
+                "iconAnchor": [35, 85], // point of the icon which will correspond to marker's location
+            }
+        } 
+
+    }, {
+        // Add Another Point
+    }];
+
+    // Add custom popups to each using our custom feature properties
+    myLayer.on('layeradd', function(e) {
+        var marker = e.layer,
+            feature = marker.feature;
+
+
+    });
+
+    // Set a custom icon on each marker based on feature properties.
+    myLayer.on('layeradd', function(e) {
+        var marker = e.layer,
+            feature = marker.feature;
+
+        marker.setIcon(L.icon(feature.properties.icon));
+    });
+
+
+    // Add features to the map
+    myLayer.setGeoJSON(geoJson);
+
+
+
+   </script>
 
 <?php include 'includes/global/footer.php'; ?>
