@@ -221,12 +221,17 @@
 		}
 
 		.poly-strip {
-			height: 280px;
+			height: 180px;
+			width: 100%;
+			position: relative;
 
 			img {
-				margin-top: 120px;
+				position: absolute;
+				left: 0;
+				margin-left: -30px;
+				top: -40px;
 				margin-left: 25px;
-				@include transform(scale(2.7));
+				
 			}
 		}
 	}
@@ -303,10 +308,12 @@
 		clip-path: polygon(100% 0, 100% 60%, 0 100%, 0 40%);
 		background: $colorThree;
 		overflow: hidden;
+		position: relative;
 
 		img {
+			position: absolute;
 			width: 100%;
-			top: 0;
+			top: -180px;
 		}
 	}
 
@@ -336,7 +343,7 @@
 			width: 100%;
 
 			p {
-				padding-bottom: 40px;
+				padding-bottom: 0px;
 				text-align: center;
 			}
 
@@ -346,12 +353,18 @@
 		}
 
 		.poly-strip {
-			height: 280px;
+			height: 180px;
+			width: 100%;
+			position: relative;
+			margin-bottom: 50px;
 
 			img {
-				margin-top: 120px;
+				position: absolute;
+				left: 0;
+				margin-left: -30px;
+				top: -90px;
 				margin-left: 25px;
-				@include transform(scale(2.7));
+				
 			}
 		}
 
@@ -379,6 +392,10 @@
 			p {	
 				padding-bottom: 40px;
 			}
+		}
+
+		.row.management {
+			padding-bottom: 10px;
 		}
 
 		.center {

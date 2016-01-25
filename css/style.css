@@ -668,15 +668,15 @@ header {
   .about .col-8 {
     width: 100%; }
   .about .poly-strip {
-    height: 280px; }
+    height: 180px;
+    width: 100%;
+    position: relative; }
     .about .poly-strip img {
-      margin-top: 120px;
-      margin-left: 25px;
-      -webkit-transform: scale(2.7);
-      -moz-transform: scale(2.7);
-      -ms-transform: scale(2.7);
-      -o-transform: scale(2.7);
-      transform: scale(2.7); } }
+      position: absolute;
+      left: 0;
+      margin-left: -30px;
+      top: -40px;
+      margin-left: 25px; } }
 @media (max-width: 595px) {
   .about .poly-strip img {
     margin-top: 80px;
@@ -715,10 +715,12 @@ header {
   -webkit-clip-path: polygon(100% 0, 100% 60%, 0 100%, 0 40%);
   clip-path: polygon(100% 0, 100% 60%, 0 100%, 0 40%);
   background: #f5f5f5;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
   .what .poly-strip img {
+    position: absolute;
     width: 100%;
-    top: 0; }
+    top: -180px; }
 @media (max-width: 1130px) {
   .what .col-6 p {
     padding-bottom: 50px; }
@@ -741,20 +743,21 @@ header {
   .what .col-6 {
     width: 100%; }
     .what .col-6 p {
-      padding-bottom: 40px;
+      padding-bottom: 0px;
       text-align: center; }
     .what .col-6 h3 {
       text-align: center; }
   .what .poly-strip {
-    height: 280px; }
+    height: 180px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px; }
     .what .poly-strip img {
-      margin-top: 120px;
-      margin-left: 25px;
-      -webkit-transform: scale(2.7);
-      -moz-transform: scale(2.7);
-      -ms-transform: scale(2.7);
-      -o-transform: scale(2.7);
-      transform: scale(2.7); }
+      position: absolute;
+      left: 0;
+      margin-left: -30px;
+      top: -90px;
+      margin-left: 25px; }
   .what .col-4 {
     width: 50%;
     margin: 0 auto;
@@ -769,6 +772,8 @@ header {
     width: 100%; }
     .what .col-6 p {
       padding-bottom: 40px; }
+  .what .row.management {
+    padding-bottom: 10px; }
   .what .center {
     width: 100%; }
   .what img {
