@@ -720,7 +720,7 @@ header {
   .what .poly-strip img {
     position: absolute;
     width: 100%;
-    top: -180px; }
+    top: -90px; }
 @media (max-width: 1130px) {
   .what .col-6 p {
     padding-bottom: 50px; }
