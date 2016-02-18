@@ -107,7 +107,7 @@
 
 		<div class="poly-strip">
 
-			<img src="img/horizon_image.jpg">
+			<img src="img/bm-1.jpg">
 
 		</div> <!-- poly-strip -->
 
